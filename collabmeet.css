@@ -1,0 +1,53 @@
+body {
+		padding-top: 150px;
+	margin: auto;
+	text-align: center;
+	font-family: monospace;
+	font-size: 14pt;
+	background-image: url("prism_red.jpg");
+}
+/*#session_id_body {
+	padding-top: 250px;
+	margin: auto;
+	font-family: monospace;
+	font-size: 14pt;
+	text-align: center;
+	background-image: url("prism_red.jpg");
+		}*/
+a {
+	color: white;
+}
+.centerBox {
+	text-align: center;
+}
+
+#prefernceslink {
+	font-size: 10pt;
+}
+form {
+	text-align: center;
+}
+
+#worstDay {
+	object-position: center;
+}
+/*#done {
+	position: absolute;
+	margin-bottom: 0%;
+}
+/*#input_body {
+	padding-top: 150px;
+	margin: auto;
+	text-align: center;
+	font-family: monospace;
+	font-size: 14pt;
+	background-image: url("prism_red.jpg");
+}
+#create_session_body {
+	padding-top: 150px;
+	margin: auto;
+	text-align: center;
+	font-family: monospace;
+	font-size: 14pt;
+	background-image: url("prism_red.jpg");
+}*/
