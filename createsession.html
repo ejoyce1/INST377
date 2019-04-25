@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>COLLAB Create Session</title>
+	<link rel="stylesheet" type="text/css" href="collabmeet.css">
+</head>
+<body id="create_session_body">
+<h1>COLLAB</h1>
+<p> Create session </p>
+<form action="" method="post">
+	<input class="centerBox" type="text" name="group_name" placeholder="Group Name"><br>
+	<input class="centerBox" type="text" name="group_leader_first" placeholder="First Name"><br>
+	<input class="centerBox" type="text" name="group_leader_last" placeholder="Last Name"><br><br>
+	<input class="centerBox" type="submit" onclick="groupCreated();" value="submit">
+</form>
+<script type="text/javascript">
+	function groupCreated(){
+		alert("Group Created! Share your session ID with you group members.");
+		alert("Remember your session ID is " + Math.round(Math.random()*1000000));
+	}	
+</script>
+</body>
+</html>
