@@ -1,12 +1,32 @@
 body {
-		padding-top: 150px;
+
 	margin: auto;
 	text-align: center;
-	font-family: monospace;
+	font-family: "Osawald", sans-serif;
 	font-size: 14pt;
 	background-image: url("prism_red.jpg");
 }
-/*#session_id_body {
+
+#collab_title{
+	background-color: orangered;
+}
+#create_session_title{
+	background-color: orangered;
+}
+#playaround_title{
+	background-color: orangered;
+}
+#preferences_title{
+	background-color: orangered;
+}
+.main_body{
+	font-family: "Oswald", sans-serif;
+}
+#create_session_body{
+	font-family: "Oswald", sans-serif;
+}
+
+/*#username_body {
 	padding-top: 250px;
 	margin: auto;
 	font-family: monospace;
@@ -29,7 +49,7 @@ form {
 }
 
 #worstDay {
-	object-position: center;
+	font-size: 14pt;
 }
 /*#done {
 	position: absolute;
