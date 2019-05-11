@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+		<meta charset="UTF-8">
+		<title>COLLAB</title>
+		<link rel="stylesheet" type="text/css" href="collabmeet.css">
+		<meta name= "description" contents= "collabmeet_username">
+	
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+	<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	
+	<!--Fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	
+<body id="input_body" class="main_body">
+	<div id="playaround_title" class="jumbotron">
+		<h1>COLLAB</h1>
+	</div>
+	<div class="container text-center">
+	<form action="form_proj.php" method="post">
+		Username <br>
+		<input class="centerBox" type="text" name="username" placeholder="Username"> <br><br>
+		Which day do you prefer? <br>
+		<select id="bestDay" name="weekDay" class="centerBox">
+			<option value="Sunday">Sunday</option>
+			<option value="Monday">Monday</option>
+			<option value="Tuesday">Tuesday</option>
+			<option value="Wednesday">Wednesday</option>
+			<option value="Thursday">Thursday</option>
+			<option value="Friday">Friday</option>
+			<option value="Saturday">Saturday</option>
+		</select> <br> <br>
+
+		Do you prefer MORNING or AFTERNOON? <br>
+		<select id="timeDay" name="timeOfDay" class="centerBox">
+			<option value="MORNING">MORNING (AM)</option>
+			<option value="AFTERNOON">AFTERNOON (PM)</option>
+		</select> <br><br>
+		Choose BEST time to meet <br>
+		<select id="time" name="actualTime" class="centerBox">
+			<option value="12">12:00</option>
+			<option value="1">01:00</option>
+			<option value="2">02:00</option>
+			<option value="3">03:00</option>
+			<option value="4">04:00</option>
+			<option value="5">05:00</option>
+			<option value="6">06:00</option>
+			<option value="7">07:00</option>
+			<option value="8">08:00</option>
+			<option value="9">09:00</option>
+			<option value="10">10:00</option>
+			<option value="11">11:00</option>
+		</select><br><br>
+		<select id="work" name="works" class="centerBox">
+			<option value="Full-Time">Full-Time</option> <br>
+			<option value="Part-Time">Part-Time</option><br>
+			<option value="Don't Work">Don't Work</option>
+		</select> <br><br>
+      <button type="submit" name="submit" value="submit">Submit</button>
+	</form> <br>
+	</div>
+
+
+
+
+	<script type="text/javascript">
+		/*var mon = document.writeln("<input type='radio' name='dayOfWeek' value='Monday'/> Monday")
+		var tu = document.writeln("<input type='radio' name='dayOfWeek' value='Tuesday'/> Tuesday")
+		var wed = document.writeln("<input type='radio' name='dayOfWeek' value='Wednesday'/> Wednesday")
+		var thu = document.writeln("<input type='radio' name='dayOfWeek' value='Thursday'/> Thursday")
+		var fri = document.writeln("<input type='radio' name='dayOfWeek' value='Friday'/> Friday")
+		var sat = document.writeln("<input type='radio' name='dayOfWeek' value='Saturday'/> Saturday")
+		var sun = document.writeln("<input type='radio' name='dayOfWeek' value='Sunday'/> Sunday")
+		*/
+		
+
+		function buttonHandler() {
+			alert("You have chosen " + document.getElementById('bestDay') +" "+ document.getElementById('timeDay') +" at "+ document.getElementById('time'));
+		}
+		function thankYou() {
+			alert("Submitted! Thank You For Your Submission!");
+		}
+		/*document.writeln("<button id='created' type='button' onclick='buttonHandler();'> Done </button>");*/
+	</script>
+</body>
+</html>
